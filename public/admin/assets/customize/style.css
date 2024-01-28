@@ -1,0 +1,134 @@
+body{
+    font-family: 'docs-Roboto', Helvetica, Arial, sans-serif;
+}
+.container{
+    width: 595px;
+    margin: 0 auto;
+}
+
+.row::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.print table{
+    width: 595px;
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+.print table th, td{
+    padding: 0 15px;
+    border: 2px solid black;
+}
+.header{
+    height: 160px;
+    margin-bottom: 20px;
+}
+.logo{
+    margin: 40px;
+}
+.information{
+    margin: 30px 0;
+    text-align: center;
+    padding: 0 10px;
+}
+.information h3{
+    text-decoration: underline;
+}
+.content{
+}
+.student-footer{
+    padding: 0 20px;
+    margin-top: 300px;
+    margin-bottom: 500px;
+}
+.f-left{
+    float: left;
+}
+.f-right{
+    float: right;
+}
+.div-one{
+    padding: 5px 0;
+    border-top: 2px solid black;
+}
+.div-two {
+    padding: 5px 0;
+    border-top: 2px solid black;
+}
+.money-receipt{
+    text-align: center;
+}
+.center{
+    margin:0 auto 10px;
+    padding: 10px 15px;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+.date{
+    margin: 20px 0;
+    padding-bottom: 20px;
+}
+.received{
+    float: left;
+    padding: 10px;
+    margin: 5px 0;
+}
+.text{
+    padding-top: 5px;
+    float: left;
+}
+.border{
+    border-bottom: 2px solid black;
+    float: left;
+    width: 350px;
+    margin: 0 10px;
+    text-align: center;
+    padding-bottom: 3px;
+}
+.border-two{
+    border-bottom: 2px solid black;
+    float: left;
+    width: 180px;
+    margin: 0 10px;
+    text-align: center;
+    padding-bottom: 3px;
+}
+.border-three{
+    border-bottom: 2px solid black;
+    float: left;
+    width: 400px;
+    margin: 0 10px;
+    text-align: center;
+    padding-bottom: 3px;
+}
+.taka{
+    width: 50px;
+    height: 20px;
+    margin-left: 10px;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 10px;
+}
+.footer-two{
+    margin-top: 100px;
+    margin-bottom: 500px;
+    padding: 60px 20px;
+}
+.amount{
+    padding: 10px;
+    margin: 5px 0;
+    height: 45px;
+}
+.due-amount{
+    width: 50px;
+    height: 20px;
+    border: 2px solid black;
+    margin-left: 10px;
+    border-radius: 8px;
+    padding: 10px;
+}
+.payment-method{
+    margin: 60px 0;
+}
